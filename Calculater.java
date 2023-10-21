@@ -65,7 +65,7 @@ public class Calculater {
                 case '/':
                     return String.valueOf(a / b);
                 default:
-                    throw new CharacterCodingException();
+                    throw new Exception();
             }
         }
     }
